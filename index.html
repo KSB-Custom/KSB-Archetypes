@@ -5,11 +5,49 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
-    
+    <script src="js/main.js"></script>
 </head>
 <body>
+    <div class="box">
+        <ul class="tabs">
+            <li><a href="#tab1"><span class="tab-text">FNO</span></a></li>
+            <li><a href="#tab2"><span class="tab-text">Azteca</span></a></li>
+            <li><a href="#tab3"><span class="tab-text">Alebrije</span></a></li>
+            <li><a href="#tab4"><span class="tab-text">WildRuin</span></a></li>
+            <li><a href="#tab5"><span class="tab-text">P-Ranger</span></a></li>
+            <li><a href="#tab6"><span class="tab-text">Impish</span></a></li>
+            <li><a href="#tab7"><span class="tab-text">Impfernal</span></a></li>
+            <li><a href="#tab8"><span class="tab-text">JellyBeans</span></a></li>
+        </ul>
+   <ul class="menu">
+    <li>
+    <label>
+        <span class="tittle"><ion-icon name="moon"></ion-icon>Dark Mode</span>
+        <span class="action">
+            <input type="checkbox" id="dark">
+            <i></i>
+        </span>
+    </label>
+    </li>
+    </ul>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let body = document.querySelector('body')
+        let dark = document.querySelector('#dark')
+        dark.onclick = function(){
+            if(dark.checked==true){
+                body.classList.add('DarkMode')
+            } else{
+                body.classList.remove('DarkMode')
+            }
+        }
+    </script>
+    <div class="secciones">
+        <article id="tab1">
     <h1> Finding Neverland Online - FNO Archetype</h1>
-<blockquote><blockquote><blockquote><br>ONLINE<img src="images/wif.gif" alt="55" width="35">
+<blockquote><blockquote><blockquote><br>ONLINE &nbsp; <ion-icon name="wifi-outline"></ion-icon>
     <br> <strong>Server:</strong>     Secuter Custom Cards &nbsp;&nbsp;&nbsp;
      <strong>Creator:</strong>    Kevin SB &nbsp;&nbsp;&nbsp;
      <strong>Art:</strong>        Credits to its respective author
@@ -17,7 +55,7 @@
     <br> <strong>Monsters:</strong> 22 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 5 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 3
     </p>
 </blockquote></blockquote></blockquote>
-        <div class="gallery">
+        <div class="gallery1">
             <a href="images/11.jpg" data-lightbox="11"><img src="images/41970001.jpg"></a>
             <a href="images/12.jpg" data-lightbox="11"><img src="images/41970002.jpg"></a>
             <a href="images/13.jpg" data-lightbox="11"><img src="images/41970003.jpg"></a>
@@ -49,43 +87,44 @@
             <a href="images/03.jpg" data-lightbox="11"><img src="images/41970011.jpg"></a>
             <a href="images/04.jpg" data-lightbox="11"><img src="images/41970029.jpg"></a>
         </div>
-        <script src="js/lightbox-plus-jquery.min.js"></script>
-</body>
-<body> 
-    <h1> Azteca Archetype</h1>
-    <blockquote><blockquote><blockquote><br>ONLINE<img src="images/wif.gif" alt="55" width="35">
-    <br> <strong>Server:</strong>     Secuter Custom Cards &nbsp;&nbsp;&nbsp;
-    <strong>Creator:</strong>    Gamaliel Mond &nbsp;&nbsp;&nbsp;
-    <strong>Art:</strong>        Credits to its respective author
-    <p> <strong>Information:</strong> Inspired in the Mexica/Azteca prehispanic culture.
-        <br> <strong>Monsters:</strong> 14 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 3 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 2
-    </p></blockquote></blockquote></blockquote>
-    <div class="gallery">
-        <a href="images/1511.png" data-lightbox="11"><img src="images/15210011.jpg"></a>
-        <a href="images/1512.png" data-lightbox="11"><img src="images/15210012.jpg"></a>
-        <a href="images/1513.png" data-lightbox="11"><img src="images/15210013.jpg"></a>
-        <a href="images/1514.png" data-lightbox="11"><img src="images/15210014.jpg"></a>
-        <a href="images/1515.png" data-lightbox="11"><img src="images/15210015.jpg"></a>
-        <a href="images/1516.png" data-lightbox="11"><img src="images/15210016.jpg"></a>
-        <a href="images/1517.png" data-lightbox="11"><img src="images/15210017.jpg"></a>
-        <a href="images/1518.png" data-lightbox="11"><img src="images/15210018.jpg"></a>
-        <a href="images/1521.png" data-lightbox="11"><img src="images/15210021.jpg"></a>
-        <a href="images/1522.png" data-lightbox="11"><img src="images/15210022.jpg"></a>
-        <a href="images/1531.png" data-lightbox="11"><img src="images/15210031.jpg"></a>
-        <a href="images/1532.png" data-lightbox="11"><img src="images/15210032.jpg"></a>
-        <a href="images/1541.png" data-lightbox="11"><img src="images/15210041.jpg"></a>
-        <a href="images/1542.png" data-lightbox="11"><img src="images/15210042.jpg"></a>
-        <a href="images/1506.png" data-lightbox="11"><img src="images/15210006.jpg"></a>
-        <a href="images/1507.png" data-lightbox="11"><img src="images/15210007.jpg"></a>
-        <a href="images/1501.png" data-lightbox="11"><img src="images/15210001.jpg"></a>
-        <a href="images/1502.png" data-lightbox="11"><img src="images/15210002.jpg"></a>
-        <a href="images/1503.png" data-lightbox="11"><img src="images/15210003.jpg"></a>
-    </div>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
-</body>
-<body>
+        <div class="caja">
+            <img src="images/rpg-mockup.jpg" alt="">
+        </div> 
+        </article>
+        <article id="tab2">
+        <h1> Azteca Archetype</h1>
+        <blockquote><blockquote><blockquote><br>ONLINE &nbsp; <ion-icon name="wifi-outline"></ion-icon>
+        <br> <strong>Server:</strong>     Secuter Custom Cards &nbsp;&nbsp;&nbsp;
+        <strong>Creator:</strong>    Gamaliel Mond &nbsp;&nbsp;&nbsp;
+        <strong>Art:</strong>        Credits to its respective author
+        <p> <strong>Information:</strong> Inspired in the Mexica/Azteca prehispanic culture.
+            <br> <strong>Monsters:</strong> 14 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 3 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 2
+        </p></blockquote></blockquote></blockquote>
+        <div class="gallery2">
+            <a href="images/1511.png" data-lightbox="11"><img src="images/15210011.jpg"></a>
+            <a href="images/1512.png" data-lightbox="11"><img src="images/15210012.jpg"></a>
+            <a href="images/1513.png" data-lightbox="11"><img src="images/15210013.jpg"></a>
+            <a href="images/1514.png" data-lightbox="11"><img src="images/15210014.jpg"></a>
+            <a href="images/1515.png" data-lightbox="11"><img src="images/15210015.jpg"></a>
+            <a href="images/1516.png" data-lightbox="11"><img src="images/15210016.jpg"></a>
+            <a href="images/1517.png" data-lightbox="11"><img src="images/15210017.jpg"></a>
+            <a href="images/1518.png" data-lightbox="11"><img src="images/15210018.jpg"></a>
+            <a href="images/1521.png" data-lightbox="11"><img src="images/15210021.jpg"></a>
+            <a href="images/1522.png" data-lightbox="11"><img src="images/15210022.jpg"></a>
+            <a href="images/1531.png" data-lightbox="11"><img src="images/15210031.jpg"></a>
+            <a href="images/1532.png" data-lightbox="11"><img src="images/15210032.jpg"></a>
+            <a href="images/1541.png" data-lightbox="11"><img src="images/15210041.jpg"></a>
+            <a href="images/1542.png" data-lightbox="11"><img src="images/15210042.jpg"></a>
+            <a href="images/1506.png" data-lightbox="11"><img src="images/15210006.jpg"></a>
+            <a href="images/1507.png" data-lightbox="11"><img src="images/15210007.jpg"></a>
+            <a href="images/1501.png" data-lightbox="11"><img src="images/15210001.jpg"></a>
+            <a href="images/1502.png" data-lightbox="11"><img src="images/15210002.jpg"></a>
+            <a href="images/1503.png" data-lightbox="11"><img src="images/15210003.jpg"></a>
+        </div>
+        </article>
+        <article id="tab3">
     <h1> Alebrije Archetype</h1>
-    <blockquote><blockquote><blockquote><br>ONLINE<img src="images/wif.gif" alt="55" width="35">
+    <blockquote><blockquote><blockquote><br>ONLINE &nbsp; <ion-icon name="wifi-outline"></ion-icon>
     <br> <strong>Server:</strong> Secuter Custom Cards &nbsp;&nbsp;&nbsp;
     <strong>Creator:</strong>    Kevin SB &nbsp;&nbsp;&nbsp;
     <strong>Art:</strong>         Credits to its respective author
@@ -93,7 +132,7 @@
     <br> <strong>Monsters:</strong> 14 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 3 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 1
     </p>
     </blockquote></blockquote></blockquote>
-    <div class="gallery">
+    <div class="gallery3">
         <a href="images/6701.png" data-lightbox="11"><img src="images/15670001.jpg"></a>
         <a href="images/6702.png" data-lightbox="11"><img src="images/15670002.jpg"></a>
         <a href="images/6703.png" data-lightbox="11"><img src="images/15670003.jpg"></a>
@@ -114,10 +153,10 @@
         <a href="images/6716.png" data-lightbox="11"><img src="images/15670016.jpg"></a>
     </div>
     <script src="js/lightbox-plus-jquery.min.js"></script>
-</body>
-<body>
+        </article>
+        <article id="tab4">
     <h1> WildRuin Archetype</h1>
-    <blockquote><blockquote><blockquote><br>ONLINE<img src = "images/wif.gif" alt="55" width="35">
+    <blockquote><blockquote><blockquote><br>ONLINE &nbsp; <ion-icon name="wifi-outline"></ion-icon>
     <br> <strong>Server:</strong>     Secuter Custom Cards &nbsp;&nbsp;&nbsp;
     <strong>Creator:</strong>    Ragnarok Blackdragon &nbsp;&nbsp;&nbsp;
     <strong>Art:</strong>         Credits to its respective author
@@ -125,7 +164,7 @@
     <br> <strong>Monsters:</strong> 16 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 7 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 1
     </p>
     </blockquote></blockquote></blockquote>
-    <div class="gallery">
+    <div class="gallery4">
         <a href="images/7901.jpg" data-lightbox="11"><img src="images/15579001.jpg"></a>
         <a href="images/7902.jpg" data-lightbox="11"><img src="images/15579002.jpg"></a>
         <a href="images/7903.jpg" data-lightbox="11"><img src="images/15579003.jpg"></a>
@@ -152,24 +191,24 @@
         <a href="images/7923.jpg" data-lightbox="11"><img src="images/15579023.jpg"></a>
     </div>
     <script src="js/lightbox-plus-jquery.min.js"></script>
-</body>
-<body>
-    <h1> DinoP-Ranger Archetype</h1>
+        </article>
+        <article id="tab5">
+    <h1> P-Ranger & Zord Archetype</h1>
     <blockquote>
         <blockquote>
             <blockquote>
-                <br>ONLINE<img src="images/wif.gif" alt="55" width="35">
+                <br>ONLINE &nbsp; <ion-icon name="wifi-outline"></ion-icon>
                 <br> <strong>Server:</strong> Secuter Custom Cards &nbsp;&nbsp;&nbsp;
                 <strong>Creator:</strong>    Kevin SB &nbsp;&nbsp;&nbsp;
                 <strong>Art:</strong>         Credits to its respective author
                 <p>
-                    <strong>Information:</strong> First P-Ranger Subarchetype. It is expected to bring more generations of these legendary heroes and the Zords.
+                    <strong>Information:</strong> DinoP-Ranger is the first P-Ranger Subarchetype. It is expected to bring more generations of these legendary heroes and the Zords.
                     <br> <strong>Monsters:</strong> 11 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 2 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 0
                 </p>
             </blockquote>
         </blockquote>
     </blockquote>
-    <div class="gallery">
+    <div class="gallery5">
         <a href="images/9001.png" data-lightbox="11"><img src="images/15909001.jpg"></a>
         <a href="images/9002.png" data-lightbox="11"><img src="images/15909002.jpg"></a>
         <a href="images/9011.png" data-lightbox="11"><img src="images/15909011.jpg"></a>
@@ -186,5 +225,177 @@
         <a href="images/9031.png" data-lightbox="11"><img src="images/15909031.jpg"></a>
     </div>
     <script src="js/lightbox-plus-jquery.min.js"></script>
+        </article>
+        <article id="tab6">
+            <h1> Impish Archetype</h1>
+            <blockquote>
+                <blockquote>
+                    <blockquote>
+                        <br>In Review &nbsp;
+                        <br> <strong>Server:</strong> Secuter Custom Cards (Soon) &nbsp;&nbsp;&nbsp;
+                        <strong>Creator:</strong>    Edrei Carreto &nbsp;&nbsp;&nbsp;
+                        <strong>Art:</strong>         IA Art
+                        <p>
+                            <strong>Information:</strong> The Impish archetype has several combinations depending on the strategy; OTK, damage effect, control, boss monster, etc.
+                            <br> <strong>Monsters:</strong> 68 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 4 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 3
+                        </p>
+                    </blockquote>
+                </blockquote>
+            </blockquote>
+            <div class="gallery6">
+                <a href="images/16230001.jpg" data-lightbox="11"><img src="images/16230001.png"></a>
+                <a href="images/16230070.jpg" data-lightbox="11"><img src="images/16230070.png"></a>
+                <a href="images/16231009.jpg" data-lightbox="11"><img src="images/16231009.png"></a>
+                <a href="images/16231010.jpg" data-lightbox="11"><img src="images/16231010.png"></a>
+                <a href="images/16231011.jpg" data-lightbox="11"><img src="images/16231011.png"></a>
+                <a href="images/16231012.jpg" data-lightbox="11"><img src="images/16231012.png"></a>
+                <a href="images/16231013.jpg" data-lightbox="11"><img src="images/16231013.png"></a>
+                <a href="images/16231014.jpg" data-lightbox="11"><img src="images/16231014.png"></a>
+                <a href="images/16231053.jpg" data-lightbox="11"><img src="images/16231053.png"></a>
+                <a href="images/16231059.jpg" data-lightbox="11"><img src="images/16231059.png"></a>
+                <a href="images/16231065.jpg" data-lightbox="11"><img src="images/16231065.png"></a>
+                <a href="images/16231102.jpg" data-lightbox="11"><img src="images/16231102.png"></a>
+                <a href="images/16231103.jpg" data-lightbox="11"><img src="images/16231103.png"></a>
+                <a href="images/16231104.jpg" data-lightbox="11"><img src="images/16231104.png"></a>
+                <a href="images/16231105.jpg" data-lightbox="11"><img src="images/16231105.png"></a>
+                <a href="images/16231106.jpg" data-lightbox="11"><img src="images/16231106.png"></a>
+                <a href="images/16231107.jpg" data-lightbox="11"><img src="images/16231107.png"></a>
+                <a href="images/16231108.jpg" data-lightbox="11"><img src="images/16231108.png"></a>
+                <a href="images/16232002.jpg" data-lightbox="11"><img src="images/16232002.png"></a>
+                <a href="images/16232027.jpg" data-lightbox="11"><img src="images/16232027.png"></a>
+                <a href="images/16232028.jpg" data-lightbox="11"><img src="images/16232028.png"></a>
+                <a href="images/16232029.jpg" data-lightbox="11"><img src="images/16232029.png"></a>
+                <a href="images/16232071.jpg" data-lightbox="11"><img src="images/16232071.png"></a>
+                <a href="images/16232072.jpg" data-lightbox="11"><img src="images/16232072.png"></a>
+                <a href="images/16233014.jpg" data-lightbox="11"><img src="images/16233014.png"></a>
+                <a href="images/16233015.jpg" data-lightbox="11"><img src="images/16233015.png"></a>
+                <a href="images/16233030.jpg" data-lightbox="11"><img src="images/16233030.png"></a>
+                <a href="images/16233031.jpg" data-lightbox="11"><img src="images/16233031.png"></a>
+                <a href="images/16233032.jpg" data-lightbox="11"><img src="images/16233032.png"></a>
+                <a href="images/16233033.jpg" data-lightbox="11"><img src="images/16233033.png"></a>
+                <a href="images/16233034.jpg" data-lightbox="11"><img src="images/16233034.png"></a>
+                <a href="images/16233035.jpg" data-lightbox="11"><img src="images/16233035.png"></a>
+                <a href="images/16233036.jpg" data-lightbox="11"><img src="images/16233036.png"></a>
+                <a href="images/16233073.jpg" data-lightbox="11"><img src="images/16233073.png"></a>
+                <a href="images/16234031.jpg" data-lightbox="11"><img src="images/16234031.png"></a>
+                <a href="images/16234037.jpg" data-lightbox="11"><img src="images/16234037.png"></a>
+                <a href="images/16234038.jpg" data-lightbox="11"><img src="images/16234038.png"></a>
+                <a href="images/16234039.jpg" data-lightbox="11"><img src="images/16234039.png"></a>
+                <a href="images/16234040.jpg" data-lightbox="11"><img src="images/16234040.png"></a>
+                <a href="images/16234041.jpg" data-lightbox="11"><img src="images/16234041.png"></a>
+                <a href="images/16234042.jpg" data-lightbox="11"><img src="images/16234042.png"></a>
+                <a href="images/16234043.jpg" data-lightbox="11"><img src="images/16234043.png"></a>
+                <a href="images/16234044.jpg" data-lightbox="11"><img src="images/16234044.png"></a>
+                <a href="images/16234076.jpg" data-lightbox="11"><img src="images/16234076.png"></a>
+                <a href="images/16235001.jpg" data-lightbox="11"><img src="images/16235001.png"></a>
+                <a href="images/16235003.jpg" data-lightbox="11"><img src="images/16235003.png"></a>
+                <a href="images/16235004.jpg" data-lightbox="11"><img src="images/16235004.png"></a>
+                <a href="images/16235005.jpg" data-lightbox="11"><img src="images/16235005.png"></a>
+                <a href="images/16235006.jpg" data-lightbox="11"><img src="images/16235006.png"></a>
+                <a href="images/16235011.jpg" data-lightbox="11"><img src="images/16235011.png"></a>
+                <a href="images/16235040.jpg" data-lightbox="11"><img src="images/16235040.png"></a>
+                <a href="images/16235050.jpg" data-lightbox="11"><img src="images/16235050.png"></a>
+                <a href="images/16235083.jpg" data-lightbox="11"><img src="images/16235083.png"></a>
+                <a href="images/16237700.jpg" data-lightbox="11"><img src="images/16237700.png"></a>
+                <a href="images/16237701.jpg" data-lightbox="11"><img src="images/16237701.png"></a>
+                <a href="images/16237702.jpg" data-lightbox="11"><img src="images/16237702.png"></a>
+                <a href="images/16237703.jpg" data-lightbox="11"><img src="images/16237703.png"></a>
+                <a href="images/16237704.jpg" data-lightbox="11"><img src="images/16237704.png"></a>
+                <a href="images/16237705.jpg" data-lightbox="11"><img src="images/16237705.png"></a>
+                <a href="images/16237706.jpg" data-lightbox="11"><img src="images/16237706.png"></a>
+                <a href="images/16237707.jpg" data-lightbox="11"><img src="images/16237707.png"></a>
+                <a href="images/16237708.jpg" data-lightbox="11"><img src="images/16237708.png"></a>
+                <a href="images/16237709.jpg" data-lightbox="11"><img src="images/16237709.png"></a>
+                <a href="images/16237710.jpg" data-lightbox="11"><img src="images/16237710.png"></a>
+                <a href="images/16237711.jpg" data-lightbox="11"><img src="images/16237711.png"></a>
+                <a href="images/16237712.jpg" data-lightbox="11"><img src="images/16237712.png"></a>
+                <a href="images/16237713.jpg" data-lightbox="11"><img src="images/16237713.png"></a>
+                <a href="images/16237714.jpg" data-lightbox="11"><img src="images/16237714.png"></a>
+                <a href="images/16237718.jpg" data-lightbox="11"><img src="images/16237718.png"></a>
+                <a href="images/16238018.jpg" data-lightbox="11"><img src="images/16238018.png"></a>
+                <a href="images/16238019.jpg" data-lightbox="11"><img src="images/16238019.png"></a>
+                <a href="images/16238023.jpg" data-lightbox="11"><img src="images/16238023.png"></a>
+                <a href="images/16238024.jpg" data-lightbox="11"><img src="images/16238024.png"></a>
+                <a href="images/16238025.jpg" data-lightbox="11"><img src="images/16238025.png"></a>
+                <a href="images/16239026.jpg" data-lightbox="11"><img src="images/16239026.png"></a>
+                <a href="images/16239027.jpg" data-lightbox="11"><img src="images/16239027.png"></a>
+                <a href="images/16239028.jpg" data-lightbox="11"><img src="images/16239028.png"></a>
+            </div>
+        </article>
+        <article id="tab7">
+            <h1> Impfernal Archetype</h1>
+            <blockquote>
+                <blockquote>
+                    <blockquote>
+                        <br>In Review &nbsp;
+                        <br> <strong>Server:</strong> Secuter Custom Cards (Soon) &nbsp;&nbsp;&nbsp;
+                        <strong>Creator:</strong>    Edrei Carreto &nbsp;&nbsp;&nbsp;
+                        <strong>Art:</strong>         IA Art
+                        <p>
+                            <strong>Information:</strong> The infernal archetype is Fiend support. It is generic and can be useful for this type, so it supports impish.
+                            <br> <strong>Monsters:</strong> 8 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 5 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 0
+                        </p>
+                    </blockquote>
+                </blockquote>
+            </blockquote>
+            <div class="gallery7">
+            <a href="images/16238016.jpg" data-lightbox="11"><img src="images/16238016.png"></a>
+            <a href="images/16238017.jpg" data-lightbox="11"><img src="images/16238017.png"></a>
+            <a href="images/16238020.jpg" data-lightbox="11"><img src="images/16238020.png"></a>
+            <a href="images/16238021.jpg" data-lightbox="11"><img src="images/16238021.png"></a>
+            <a href="images/16238022.jpg" data-lightbox="11"><img src="images/16238022.png"></a>
+            <a href="images/16233002.jpg" data-lightbox="11"><img src="images/16233002.png"></a>
+            <a href="images/16233004.jpg" data-lightbox="11"><img src="images/16233004.png"></a>
+            <a href="images/16233005.jpg" data-lightbox="11"><img src="images/16233005.png"></a>
+            <a href="images/16233006.jpg" data-lightbox="11"><img src="images/16233006.png"></a>
+            <a href="images/16233007.jpg" data-lightbox="11"><img src="images/16233007.png"></a>
+            <a href="images/16233008.jpg" data-lightbox="11"><img src="images/16233008.png"></a>
+            <a href="images/16233009.jpg" data-lightbox="11"><img src="images/16233009.png"></a>
+            <a href="images/16233010.jpg" data-lightbox="11"><img src="images/16233010.png"></a>
+        </div>
+    </article>
+    <article id="tab8">
+        <h1> JellyBeans Archetype</h1>
+        <blockquote>
+            <blockquote>
+                <blockquote>
+                    <br>In Review &nbsp;
+                    <br> <strong>Server:</strong> Secuter Custom Cards (Soon) &nbsp;&nbsp;&nbsp;
+                    <strong>Creator:</strong>    Kevin SB &nbsp;&nbsp;&nbsp;
+                    <strong>Art:</strong>         IA Art
+                    <p>
+                        <strong>Information:</strong> Funny and sweet powerfull warriors. The JellyBeans are ready for change the candy world.
+                        <br> <strong>Monsters:</strong> 16 &nbsp;&nbsp;&nbsp; <strong>Spells:</strong> 5 &nbsp;&nbsp;&nbsp; <strong> Traps:</strong> 3
+                    </p>
+                </blockquote>
+            </blockquote>
+        </blockquote>
+        <div class="gallery8">
+            <a href="images/41971001.png" data-lightbox="11"><img src="images/41971001.jpg"></a>
+            <a href="images/41971011.png" data-lightbox="11"><img src="images/41971011.jpg"></a>
+            <a href="images/41971012.png" data-lightbox="11"><img src="images/41971012.jpg"></a>
+            <a href="images/41971016.png" data-lightbox="11"><img src="images/41971016.jpg"></a>
+            <a href="images/41971017.png" data-lightbox="11"><img src="images/41971017.jpg"></a>
+            <a href="images/41971018.png" data-lightbox="11"><img src="images/41971018.jpg"></a>
+            <a href="images/41971021.png" data-lightbox="11"><img src="images/41971021.jpg"></a>
+            <a href="images/41971022.png" data-lightbox="11"><img src="images/41971022.jpg"></a>
+            <a href="images/41971023.png" data-lightbox="11"><img src="images/41971023.jpg"></a>
+            <a href="images/41971031.png" data-lightbox="11"><img src="images/41971031.jpg"></a>
+            <a href="images/41971032.png" data-lightbox="11"><img src="images/41971032.jpg"></a>
+            <a href="images/41971041.png" data-lightbox="11"><img src="images/41971041.jpg"></a>
+            <a href="images/41971051.png" data-lightbox="11"><img src="images/41971051.jpg"></a>
+            <a href="images/41971052.png" data-lightbox="11"><img src="images/41971052.jpg"></a>
+            <a href="images/41971061.png" data-lightbox="11"><img src="images/41971061.jpg"></a>
+            <a href="images/41971063.png" data-lightbox="11"><img src="images/41971063.jpg"></a>
+            <a href="images/41971081.png" data-lightbox="11"><img src="images/41971081.jpg"></a>
+            <a href="images/41971082.png" data-lightbox="11"><img src="images/41971082.jpg"></a>
+            <a href="images/41971083.png" data-lightbox="11"><img src="images/41971083.jpg"></a>
+            <a href="images/41971084.png" data-lightbox="11"><img src="images/41971084.jpg"></a>
+            <a href="images/41971085.png" data-lightbox="11"><img src="images/41971085.jpg"></a>
+            <a href="images/41971091.png" data-lightbox="11"><img src="images/41971091.jpg"></a>
+            <a href="images/41971092.png" data-lightbox="11"><img src="images/41971092.jpg"></a>
+            <a href="images/41971093.png" data-lightbox="11"><img src="images/41971093.jpg"></a>
+        </div>
+    </article>
 </body>
 </html>
