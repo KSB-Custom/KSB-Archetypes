@@ -1,13 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: sans-serif;
+    color: black;
+}
+.secciones{
+	margin-left: 170px;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+}
+.caja img{
+    border-radius: 30px;
+    width: 996px;
+    height: 792px;
+}
+.darkMode{
+    background: #111;
+    color: #fff;
+}
+.profile .text{
+    color: #333;
+}
+.box {
+    position: fixed;
+    width: 150px;
+    padding: 0px;
+    height: 100%;
+    background: #f0f0f0;
+}
+.tabs{
+	background: #363636;
+	list-style: none;
+}
+.tabs li a{
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+text-align: center;
+display: block;
+padding: 8px 0px;
+}
+.menu li
+{
+list-style: none;
+margin: 8px 0;
+}
+.menu li label
+{
+position: relative;
+display: flex;
+justify-content: space-around;
+}
+.menu li label span
+{
+display: flex;
+justify-content: center;
+align-items: center;
+user-select: none;
+cursor: pointer;
+color: #777;
+}
+.menu li label span ion-icon
+{
+margin-right: 10px;
+}
+.menu li label .action
+{
+position: relative;
+}
+.menu li label .action input
+{
+    appearance: none;
+}
+.menu li label .action i
+{
+    position: relative;
+    width: 30px;
+    height: 15px;
+    background: #333;
+    border-radius: 15px;
+}
+.menu li label .action input:checked ~ i
+{
+    background: #2aa0ff;
+}
+.menu li label .action i::before
+{
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+    transition: 0.5s;
+}
+.menu li label .action input:checked ~ i::before
+{
+    left: calc(100% - 12.5px);
 }
 h1{
     text-align: center;
     color: forestgreen;
-    margin: 30px 0 50px;
+    margin: 0px 0 0px;
 }
 .gallery{
-    margin: 10px 50px;
+    
+    left: 30%;
 }
 .gallery img{
     width: 130px;
@@ -15,4 +120,24 @@ h1{
 }
 .gallery img:hover{
     transform: scale(1.1);
+}
+.container{
+    margin: auto;
+}
+.lbl-menu{
+    background: #234;
+}
+.lbl-menu label{
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.lbl-menu label:hover{
+    background: #28435d;
+}
+
+.active{
+	background: #0984CC;
 }
